@@ -6,6 +6,7 @@ def batch_badge_creator(attendees)
   new_list = []
   for attendee in attendees
     new_list[attendee] = badge_maker(attendee)
+  end
   new_list
 end
 def assign_rooms
