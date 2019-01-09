@@ -15,6 +15,7 @@ def assign_rooms(attendees)
   room = 1
   attendees.each do |person|
     new_list << "Hello, #{person}! You'll be assigned to room #{room}!"
+    room += 1
   end
   new_list
 end
