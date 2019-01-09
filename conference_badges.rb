@@ -19,3 +19,6 @@ def assign_rooms(attendees)
   end
   new_list
 end
+def printer(attendees)
+
+end
