@@ -20,5 +20,7 @@ def assign_rooms(attendees)
   new_list
 end
 def printer(attendees)
-
+  attendees.each do |person|
+  puts "Hello, my name is #{person}"
+  end
 end
